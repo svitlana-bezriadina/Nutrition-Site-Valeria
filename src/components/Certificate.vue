@@ -59,12 +59,12 @@
 
 <script setup>
 import { ref } from 'vue'
-import cert1 from '@/assets/image/certificate/IMG_6394.JPG'
-import cert2 from '@/assets/image/certificate/IMG_6395.JPG'
-import cert3 from '@/assets/image/certificate/IMG_6396.JPG'
-import cert4 from '@/assets/image/certificate/IMG_6397.JPG'
-import cert5 from '@/assets/image/certificate/IMG_6398.JPG'
-import cert6 from '@/assets/image/certificate/IMG_6399.JPG'
+import cert1 from '@/assets/image/certificate/IMG_6394.jpg'
+import cert2 from '@/assets/image/certificate/IMG_6395.jpg'
+import cert3 from '@/assets/image/certificate/IMG_6396.jpg'
+import cert4 from '@/assets/image/certificate/IMG_6397.jpg'
+import cert5 from '@/assets/image/certificate/IMG_6398.jpg'
+import cert6 from '@/assets/image/certificate/IMG_6399.jpg'
 
 const slide = ref(0)
 
