@@ -122,7 +122,7 @@ const getSlideClass = (index) => {
   width: 400px;
   height: 400px;
   transform-origin: center center; 
-  transition: all 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out, left 0.6s ease-in-out, opacity 0.6s ease-in-out;
   box-sizing: border-box;
 }
 
@@ -348,8 +348,11 @@ const getSlideClass = (index) => {
 
 @media (max-width:480px){
   .slide-active .slide-img {
-    box-shadow: 1px 1px 50px 50px #eeebe265;
     box-sizing: border-box;
+  }
+
+  .slide-prev, .slide-next {
+    opacity: 50%;
   }
 
   .prev { left: 10%; }
