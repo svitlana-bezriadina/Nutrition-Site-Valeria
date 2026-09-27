@@ -442,9 +442,9 @@ h2{
     }
 
     .btn-consultation {
-        padding: 12px 20px;
-        font-size: 15px;
-        width: 90%;
+        padding: 5px 20px;
+        font-size: 12px;
+        width:50%;
         justify-content: center;
         margin-bottom: 5%;
     }

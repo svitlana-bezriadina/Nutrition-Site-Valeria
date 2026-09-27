@@ -354,5 +354,10 @@ const getSlideClass = (index) => {
 
   .prev { left: 10%; }
   .next { right: 10%; }
+
+  .dots {
+    margin-top:-25px;
+    margin-bottom: 25px;
+  }
 }
 </style>

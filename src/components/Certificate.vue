@@ -398,7 +398,7 @@ figure img{
 
 @media(max-width:480px){
 	.header h1 {
-		font-size: 40px;
+		font-size: 35px;
 	}
 
 	.carousel-stage{
@@ -409,6 +409,18 @@ figure img{
 	.carousel{
 		width:80%;
 		margin:5% auto 0;
+	}
+
+	.previous{
+		left:-25px
+	}
+
+	.next{
+		right:-25px
+	}
+
+	.dots {
+		bottom: -25px;
 	}
 
 	.flower-left{

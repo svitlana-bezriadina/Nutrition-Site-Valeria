@@ -210,6 +210,7 @@
 
   .item-text {
     font-size: 13px;
+    padding-right: 5px;
     line-height: 1.3;
   }
 

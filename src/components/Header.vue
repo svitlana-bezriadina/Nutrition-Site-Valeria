@@ -245,7 +245,7 @@ nav a {
     opacity: 0;
   }
   .burger-menu span.open:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-12px) rotate(-45deg);
   }
 }
 

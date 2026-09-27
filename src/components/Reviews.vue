@@ -189,7 +189,7 @@ h1 {
     position: relative;
     width: 100%; 
     border-radius: 20px;
-    background: #fff;
+    background: #FFFBF3;
     padding: 10px;
     box-shadow: 1px 1px 20px 1px #797A6E;
 }
