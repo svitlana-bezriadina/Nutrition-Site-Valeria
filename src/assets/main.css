@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap');
+html, body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFBF3;
+}
+
+
+@font-face {
+    font-family: 'Gabroiola';
+    src:url('./fonts/Gabriola.ttf') format(ttf);
+    font-weight:400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kudry-Weird';
+    src: url('./fonts/Kudry-WeirdText.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kudry';
+    src: url('./fonts/Kudry-SansText.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
