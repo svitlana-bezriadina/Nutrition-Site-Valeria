@@ -62,7 +62,7 @@ import Table from './Table.vue'
     overflow: hidden;
     width: auto;
     padding-left: 5%;
-    margin-top:3%;
+    margin-top:5%;
     text-align: center;
 }
 

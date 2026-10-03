@@ -72,6 +72,15 @@ import review2 from '@/assets/image/reviews/R2.jpg'
 import review3 from '@/assets/image/reviews/R3.jpg'
 import review4 from '@/assets/image/reviews/R4.jpg'
 import review5 from '@/assets/image/reviews/R5.jpg'
+import review6 from '@/assets/image/reviews/R6.jpg'
+import review7 from '@/assets/image/reviews/R7.jpg'
+import review8 from '@/assets/image/reviews/R8.jpg'
+import review10 from '@/assets/image/reviews/R10.jpg'
+import review11 from '@/assets/image/reviews/R11.jpg'
+import review12 from '@/assets/image/reviews/R12.jpg'
+import review13 from '@/assets/image/reviews/R13.jpg'
+import review14 from '@/assets/image/reviews/R14.jpg'
+import review15 from '@/assets/image/reviews/R15.jpg'
 
 const slide = ref(0)
 
@@ -80,7 +89,16 @@ const reviews = [
     { id: 2, image: review2 },
     { id: 3, image: review3 },
     { id: 4, image: review4 },
-    { id: 5, image: review5 }
+    { id: 5, image: review5 },
+    { id: 6, image: review6 },
+    { id: 7, image: review7 },
+    { id: 8, image: review8 },
+    { id: 10, image: review10 },
+    { id: 11, image: review11 },
+    { id: 12, image: review12 },
+    { id: 13, image: review13 },
+    { id: 14, image: review14 },
+    { id: 15, image: review15 }
 ]
 
 const next = () => { slide.value = (slide.value + 1) % reviews.length }
@@ -270,7 +288,7 @@ figure img {
 .apples-branch {
     position: absolute;
     right: 0%;
-    top: -100%;
+    top: 0%;
     width: 25%;
     z-index: 1;
     pointer-events: none;
@@ -280,7 +298,7 @@ figure img {
 .leaves-top-left {
     position: absolute;
     left: -5%;
-    top: -150%;
+    top: -30%;
     width: 20%;
     z-index: -1;
     pointer-events: none;
@@ -351,19 +369,19 @@ figure img {
     }
     
     .apples-branch {
-        width: 30%;
+        width: 35%;
         z-index: -1;
-        top: -40%;
-        right: 70%;
+        top: -30%;
+        right: 65%;
         transform: rotateX(180deg);
     }
 
     .leaves-top-left {
-        width: 25%;
-        left: 80%;
+        width: 40%;
+        left: 70%;
         top: 15%;
         z-index: -1;
-        transform: rotate(-60deg);
+        transform: rotate(-80deg);
     }
 }
 @media (max-width: 480px) {
@@ -392,6 +410,11 @@ figure img {
     
     .carousel {
         width: 70%;
+    }
+
+    .dots button {
+        width: 4px;
+        height: 4px;
     }
 
     .arrow {

@@ -44,9 +44,17 @@ import food2 from '@/assets/image/dishes/food2.jpg'
 import food3 from '@/assets/image/dishes/food3.jpg'
 import food4 from '@/assets/image/dishes/food4.jpg'
 import food5 from '@/assets/image/dishes/food5.jpg'
+import food6 from '@/assets/image/dishes/food6.jpg'
+import food7 from '@/assets/image/dishes/food7.jpg'
+import food8 from '@/assets/image/dishes/food8.jpg'
+import food9 from '@/assets/image/dishes/food9.jpg'
+import food10 from '@/assets/image/dishes/food10.jpg'
+import food11 from '@/assets/image/dishes/food11.jpg'
+import food12 from '@/assets/image/dishes/food12.jpg'
 
 
-const images = [food1, food2, food3, food4, food5]
+
+const images = [food1, food2, food3, food4, food5, food6, food7, food8, food9, food10, food11, food12]
 const currentIndex = ref(0)
 const direction = ref('next')
 const isAnimating = ref(false)
@@ -252,7 +260,7 @@ const getSlideClass = (index) => {
   align-items: center;
   justify-content: center;
   gap: 40px;
-  margin-top: 90px;
+  margin-top: 50px;
 }
 
 .dots button {
@@ -289,7 +297,7 @@ const getSlideClass = (index) => {
 
   .dots {
     gap: 30px;
-    margin-top: 50px;
+    margin-top: 10px;
   }
 
   .dots button {
@@ -316,7 +324,7 @@ const getSlideClass = (index) => {
 
   .dots {
     gap: 30px;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .dots button {
