@@ -205,7 +205,7 @@ nav a {
     transition: all 0.3s ease;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1420px) {
   .burger-menu {
     display: flex;
     margin-right:2%;

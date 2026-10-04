@@ -258,6 +258,60 @@ article p{
 
 }
 
+@media (max-width: 680px) {
+        .intro {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .underline {
+        width: 150px;
+        margin: 8px auto;
+    }
+
+    .intro .subtitle {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .intro p {
+        font-size: 16px;
+        text-align: center;
+        line-height: 1.5;
+        padding: 0 10px;
+    }
+
+    .photo {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 100%;
+        margin-top:20px;
+        padding: 0;
+    }
+
+    .photo img {
+        width: 50%;
+        height: 30%;
+    }
+
+    .separator {
+        margin-top: 40px;
+    }
+
+}
+
 @media (max-width: 480px) {
     .services {
         padding: 40px 15px 50px;
@@ -305,7 +359,7 @@ article p{
     }
 
     .photo img {
-        width: 70%;
+        width: 50%;
         height: 30%;
     }
 

@@ -189,7 +189,7 @@ const getSlideClass = (index) => {
   border-radius:0 50% 50% 0;
 }
 .slide-prev::after {
-  border-color: #8B9175;
+  border-color: #B8BFA6;
   border-radius:0 50% 50% 0;
   right: -4%; 
 }
@@ -204,7 +204,7 @@ const getSlideClass = (index) => {
   border-radius: 50% 0 0 50%;
 }
 .slide-next::after {
-  border-color: #8B9175;
+  border-color: #B8BFA6;
   border-radius: 50% 0 0 50%;
   left: -4%;
 }
@@ -260,7 +260,7 @@ const getSlideClass = (index) => {
   align-items: center;
   justify-content: center;
   gap: 40px;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .dots button {
@@ -324,7 +324,8 @@ const getSlideClass = (index) => {
 
   .dots {
     gap: 30px;
-    margin-top: 10px;
+    margin-top: -25px;
+    margin-bottom: 25px;
   }
 
   .dots button {
@@ -354,7 +355,7 @@ const getSlideClass = (index) => {
 
 }
 
-@media (max-width:480px){
+@media (max-width:600px){
   .slide-active .slide-img {
     box-sizing: border-box;
   }
