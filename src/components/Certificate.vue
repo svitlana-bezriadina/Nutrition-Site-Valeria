@@ -338,7 +338,7 @@ figure img{
     margin-top: -2px;
 }
 
-@media(max-width:1024px){
+@media(max-width:1420px){
 	.certificates{
 		padding:80px 6%
 	}

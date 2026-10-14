@@ -273,7 +273,7 @@ h2{
     margin-top: -2px;
 }
 
-@media(max-width:1024px) {
+@media(max-width:1420px) {
     .hero {
         margin-top: 10%;
     }
